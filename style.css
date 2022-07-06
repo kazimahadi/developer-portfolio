@@ -14,6 +14,12 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -23,7 +29,19 @@ section {
 
 .half-width img {
     width: 80%;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.experience-item {
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
 }
 
 .link-button {
@@ -38,4 +56,9 @@ section {
 .top-banner {
     background-image: url(image/banner.png);
     background-repeat: no-repeat;
+}
+
+.experience-area {
+    display: flex;
+    margin-bottom: 100px;
 }
